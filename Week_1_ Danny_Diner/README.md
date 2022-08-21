@@ -1,8 +1,8 @@
 ## 8 Week SQL Challenge
 
-### Case Study #1 - Danny's Diner
+### Case Study #1 - Danny's Diner 
 
-https://github.com/priscng/8_week_SQL_Challenge/blob/main/Week_1_%20Danny_Diner/images/image1.PNG
+<img src="https://github.com/priscng/8_week_SQL_Challenge/blob/main/Week_1_%20Danny_Diner/images/image1.PNG" alt="Image" width="500" height="520">
 
 #### Business Problem
 Danny wants to use the data to answer a few simple questions about his customers, especially about their visiting patterns, how much money they’ve spent and also which menu items are their favourite. The insights will help him decide whether he should expand the existing customer loyalty program and to deliver a better experience for this customers.

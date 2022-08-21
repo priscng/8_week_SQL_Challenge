@@ -60,7 +60,7 @@ VALUES
 
 -- 1. What is the total amount each customer spent at the restaurant?
 SELECT
-  	s.customer_id,
+    s.customer_id,
     SUM(m.price) as total_amount
 FROM dannys_diner.sales AS s
 INNER JOIN dannys_diner.menu AS m
@@ -70,14 +70,14 @@ ORDER BY 2 DESC;
 
 -- 2. How many days has each customer visited the restaurant?
 SELECT
-	customer_id,
-  	COUNT(DISTINCT(order_date)) as total_days_visit
+    customer_id,
+    COUNT(DISTINCT(order_date)) as total_days_visit
 FROM dannys_diner.sales
 GROUP BY customer_id;
 
 -- 3. What was the first item from the menu purchased by each customer?
 SELECT
-	customer_id,
+    customer_id,
     product_name
 FROM 
   (SELECT
@@ -104,7 +104,7 @@ LIMIT 1;
 
 -- 5. Which item was the most popular for each customer?
 SELECT
-	customer_id,
+    customer_id,
     product_name,
     order_count
 FROM (
@@ -122,7 +122,7 @@ WHERE rank = 1;
 
 -- 6. Which item was purchased first by the customer after they became a member?
 SELECT
-	customer_id,
+    customer_id,
     order_date,
     product_name
 FROM 
@@ -142,7 +142,7 @@ GROUP BY customer_id, order_date, product_name;
 
 -- 7. Which item was purchased just before the customer became a member?
 SELECT
-	customer_id,
+    customer_id,
     order_date,
     product_name
 FROM 
@@ -162,7 +162,7 @@ GROUP BY customer_id, order_date, product_name;
 
 -- 8. What is the total items and amount spent for each member before they became a member?
 SELECT
-	customer_id,
+    customer_id,
     COUNT(DISTINCT(product_name)) AS items_ordered,
     SUM(price) as total_amount
 FROM 
@@ -188,7 +188,7 @@ WITH points_table AS (
   	ELSE price * 10 END AS points
   FROM dannys_diner.menu)
 SELECT
-	customer_id,
+    customer_id,
     SUM(points) as total_points
 FROM points_table as pt
 INNER JOIN dannys_diner.sales AS s
@@ -198,7 +198,7 @@ ORDER BY customer_id;
 
 -- 10. In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and B have at the end of January?
 SELECT 
-	s.customer_id, 
+    s.customer_id, 
     SUM(CASE
       WHEN m.product_id = 1 THEN 20 * m.price
       WHEN s.order_date >= c.join_date AND s.order_date < c.join_date + (7* INTERVAL '1 day') THEN 20 * m.price
@@ -218,7 +218,7 @@ ORDER BY s.customer_id;
 
 -- Join All The Things
 SELECT
-	s.customer_id,
+    s.customer_id,
     s.order_date,
     m.product_name,
     m.price,
@@ -234,7 +234,7 @@ ORDER BY s.customer_id, s.order_date, m.product_name;
 -- Rank all things
 WITH summary AS (
   SELECT
-	s.customer_id,
+    s.customer_id,
     s.order_date,
     m.product_name,
     m.price,
@@ -248,7 +248,7 @@ WITH summary AS (
   ORDER BY s.customer_id, s.order_date, m.product_name
   )
 SELECT
-	*, 
+    *, 
     CASE WHEN member = 'N' THEN NULL
     ELSE RANK() OVER(PARTITION BY customer_id, member ORDER BY order_date) END AS ranking 
 FROM summary

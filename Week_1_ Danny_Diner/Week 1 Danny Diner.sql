@@ -213,7 +213,7 @@ GROUP BY s.customer_id
 ORDER BY s.customer_id;
 
 -------------------
---Bonus Questsion--
+--Bonus Questions--
 -------------------
 
 -- Join All The Things

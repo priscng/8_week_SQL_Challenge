@@ -13,6 +13,8 @@ There are 3 key datasets for this case study:
 2. menu
 3. members
 
+<img src="https://github.com/priscng/8_week_SQL_Challenge/blob/main/Week_1_%20Danny_Diner/images/image2.PNG" alt="Image" width="500" height="520">
+
 #### Case Study Questions
 1. What is the total amount each customer spent at the restaurant?
 2. How many days has each customer visited the restaurant?

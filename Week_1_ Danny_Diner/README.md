@@ -2,7 +2,7 @@
 
 ### Case Study #1 - Danny's Diner
 
-<img src="https://user-images.githubusercontent.com/81607668/127727503-9d9e7a25-93cb-4f95-8bd0-20b87cb4b459.png" alt="Image" width="500" height="520">
+https://github.com/priscng/8_week_SQL_Challenge/blob/main/Week_1_%20Danny_Diner/images/image1.PNG
 
 #### Business Problem
 Danny wants to use the data to answer a few simple questions about his customers, especially about their visiting patterns, how much money they’ve spent and also which menu items are their favourite. The insights will help him decide whether he should expand the existing customer loyalty program and to deliver a better experience for this customers.

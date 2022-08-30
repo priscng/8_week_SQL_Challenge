@@ -16,7 +16,7 @@ There are 6 key datasets for this case study:
 5. pizza_recipes
 6. pizza_toppings
 
-<img src="https://github.com/priscng/8_week_SQL_Challenge/blob/main/Week_2_Pizza_Runner/image/image2.png" alt="Image" width="500" height="520">
+<img src="https://github.com/priscng/8_week_SQL_Challenge/blob/main/Week_2_Pizza_Runner/image/image2.png" alt="Image" width="600" height="420">
 
 
 #### Case Study Questions

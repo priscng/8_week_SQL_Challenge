@@ -12,7 +12,7 @@ There are 2 key datasets for this case study:
 1. plans
 2. subscriptions
 
-<img src="https://github.com/priscng/8_week_SQL_Challenge/blob/main/Week_3_Foodie-Fi/image/image2.PNG" alt="Image" width="500" height="520">
+<img src="https://github.com/priscng/8_week_SQL_Challenge/blob/main/Week_3_Foodie-Fi/image/image2.PNG" alt="Image" width="500" height="420">
 
 
 #### Case Study Questions

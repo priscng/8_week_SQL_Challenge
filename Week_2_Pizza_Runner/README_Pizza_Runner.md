@@ -2,7 +2,7 @@
 
 ### Case Study #2 - Pizza Runner
 
-<img src="https://github.com/priscng/8_week_SQL_Challenge/blob/main/Week_1_%20Danny_Diner/images/image1.PNG" alt="Image" width="500" height="520">
+<img src="https://github.com/priscng/8_week_SQL_Challenge/blob/main/Week_2_Pizza_Runner/image/image1.PNG" alt="Image" width="500" height="520">
 
 #### Business Problem
 Danny is venturing into a new Pizza Empire but he knows pizza alone was not going to help him get seed funding. So he added another genius idea to uberize the business and launched the Pizza Runner. Danny started by recruiting “runners” to deliver fresh pizza from Pizza Runner Headquarters and also maxed out his credit card to pay freelance developers to build a mobile app to accept orders from customers.
@@ -16,7 +16,7 @@ There are 6 key datasets for this case study:
 5. pizza_recipes
 6. pizza_toppings
 
-<img src="https://github.com/priscng/8_week_SQL_Challenge/blob/main/Week_1_%20Danny_Diner/images/image2.PNG" alt="Image" width="500" height="520">
+<img src="https://github.com/priscng/8_week_SQL_Challenge/blob/main/Week_2_Pizza_Runner/image/image2.png" alt="Image" width="500" height="520">
 
 
 #### Case Study Questions

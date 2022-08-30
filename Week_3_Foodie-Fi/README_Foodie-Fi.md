@@ -2,7 +2,7 @@
 
 ### Case Study #3 - Foodie-Fi
 
-<img src="https://github.com/priscng/8_week_SQL_Challenge/blob/main/Week_1_%20Danny_Diner/images/image1.PNG" alt="Image" width="500" height="520">
+<img src="https://github.com/priscng/8_week_SQL_Challenge/blob/main/Week_3_Foodie-Fi/image/image1.PNG" alt="Image" width="500" height="520">
 
 #### Business Problem
 Danny launch his new startup Foodie-Fi in 2020 and started selling monthly and annual subscriptions, giving their customers unlimited on-demand access to exclusive food videos from around the world. He created Foodie-Fi with a data driven mindset and wanted to ensure all future investment decisions and new features were decided using data. This case study focuses on using subscription style digital data to answer important business questions.
@@ -12,7 +12,7 @@ There are 2 key datasets for this case study:
 1. plans
 2. subscriptions
 
-<img src="https://github.com/priscng/8_week_SQL_Challenge/blob/main/Week_1_%20Danny_Diner/images/image2.PNG" alt="Image" width="500" height="520">
+<img src="https://github.com/priscng/8_week_SQL_Challenge/blob/main/Week_3_Foodie-Fi/image/image2.PNG" alt="Image" width="500" height="520">
 
 
 #### Case Study Questions
